@@ -26,26 +26,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding:2px 4px;
     }
-.fas {
-    font-size: 16px;
-    color: blue;
-}
 
-.btn {
-    height: 2.35rem;
-}
-
-.divbtn .btn {
-    width: 15rem;
-    height: 5rem;
-    font-size: 2rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5px 8px;
-}
 .search {
     display: flex;
     flex-direction: row;
@@ -57,6 +39,9 @@
         width: 200px;
     }
 
+.btn {
+    height: 3.35rem;
+}
 
 .searchbookname {
     margin-bottom: 7%;

@@ -1,0 +1,17 @@
+arr1 = ["beg", "life", "i", "to"];
+def sort_by_length(arr):
+    sorted = [];
+    for item in arr:
+        b = len(arr);
+        i = 0;
+        while i < b-1 :
+            if len(arr[i])<=len(arr[i+1]):
+                a = arr[i];
+                i +=1;
+            else:
+                a = arr[i+1];
+                i +=1;
+        arr.remove(a);
+        sorted.append(a);
+    return(sorted);
+sort_by_length(arr1);

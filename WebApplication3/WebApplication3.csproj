@@ -73,10 +73,14 @@
     <Content Include="CSS\Deleteproduct.css" />
     <Content Include="CSS\Editproduct.css" />
     <Content Include="CSS\Product.css" />
+    <Content Include="CSS\staticsis.css" />
+    <Content Include="CSS\StyleSheet1.css" />
     <Content Include="CSS\userprofile.css" />
     <Content Include="CSS\ViewSales.css" />
     <Content Include="deleteProdut.aspx" />
     <Content Include="Editproduct.aspx" />
+    <Content Include="footer.aspx" />
+    <Content Include="footer.css" />
     <Content Include="Global.asax" />
     <Content Include="iamges\51AErYu8JVL.jpg" />
     <Content Include="iamges\51M+xgcE8hS.jpg" />
@@ -95,10 +99,12 @@
     <Content Include="output-onlinepngtools.png" />
     <Content Include="pexels-ivo-rainha-1290141.jpg" />
     <Content Include="Sales.aspx" />
+    <Content Include="Staticses.aspx" />
     <Content Include="User Profile.aspx" />
     <Content Include="viewsale.aspx" />
     <Content Include="Web.config" />
     <Content Include="Product.aspx" />
+    <Content Include="WebForm2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="addproduct.aspx.cs">
@@ -122,6 +128,13 @@
     <Compile Include="Editproduct.aspx.designer.cs">
       <DependentUpon>Editproduct.aspx</DependentUpon>
     </Compile>
+    <Compile Include="footer.aspx.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="footer.aspx.designer.cs">
+      <DependentUpon>footer.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -140,6 +153,13 @@
     <Compile Include="Sales.aspx.designer.cs">
       <DependentUpon>Sales.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Staticses.aspx.cs">
+      <DependentUpon>Staticses.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Staticses.aspx.designer.cs">
+      <DependentUpon>Staticses.aspx</DependentUpon>
+    </Compile>
     <Compile Include="User Profile.aspx.cs">
       <DependentUpon>User Profile.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -153,6 +173,13 @@
     </Compile>
     <Compile Include="viewsale.aspx.designer.cs">
       <DependentUpon>viewsale.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebForm2.aspx.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm2.aspx.designer.cs">
+      <DependentUpon>WebForm2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
